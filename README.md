@@ -2,7 +2,7 @@
 
 > A real-time, lip-synced AI avatar that conducts voice conversations to fill out intake forms — no typing, no waiting, just talk.
 
-https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE
+https://github.com/user-attachments/assets/df2b564c-db96-48b0-b2d7-59a34bb46a91
 
 ## The Problem
 
@@ -283,9 +283,7 @@ ANAM_API_KEY=your_anam_key
 
 > **Video demo of the AI avatar conducting a live visitor intake conversation:**
 
-https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE
-
-*Replace this link with your uploaded demo video. GitHub supports video files up to 25MB — drag and drop an MP4 into the README editor.*
+https://github.com/user-attachments/assets/df2b564c-db96-48b0-b2d7-59a34bb46a91
 
 ## License
 
