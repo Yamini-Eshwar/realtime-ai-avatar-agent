@@ -1,0 +1,37 @@
+{
+  "id": "visitor-intake",
+  "title": "Visitor Intake Form",
+  "description": "Let our AI assistant guide you through the intake process.",
+  "sections": [
+    {
+      "title": "Personal Info",
+      "fields": [
+        { "id": "fullName", "label": "Full Name", "type": "text", "placeholder": "Legal name", "required": true },
+        { "id": "dob", "label": "Date of Birth", "type": "text", "placeholder": "MM/DD/YYYY", "required": true },
+        { "id": "address", "label": "Address", "type": "text", "placeholder": "Street address" },
+        { "id": "phone", "label": "Phone Number", "type": "tel", "placeholder": "(555) 123-4567", "required": true }
+      ]
+    },
+    {
+      "title": "Emergency Contact",
+      "fields": [
+        { "id": "emergencyName", "label": "Contact Name", "type": "text", "placeholder": "Name" },
+        { "id": "emergencyRelationship", "label": "Relationship", "type": "text", "placeholder": "e.g. Spouse, Parent" },
+        { "id": "emergencyPhone", "label": "Contact Phone", "type": "tel", "placeholder": "(555) 123-4567" }
+      ]
+    },
+    {
+      "title": "Medical History",
+      "fields": [
+        { "id": "medications", "label": "Current Medications", "type": "textarea", "placeholder": "List any medications you are currently taking", "rows": 3 },
+        { "id": "allergies", "label": "Allergies", "type": "textarea", "placeholder": "List any known allergies", "rows": 3 }
+      ]
+    },
+    {
+      "title": "Reason for Visit",
+      "fields": [
+        { "id": "reasonForVisit", "label": "Description", "type": "textarea", "placeholder": "Describe the reason for your visit", "rows": 4, "required": true }
+      ]
+    }
+  ]
+}

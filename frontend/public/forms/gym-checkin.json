@@ -1,0 +1,59 @@
+{
+  "id": "gym-checkin",
+  "title": "Gym Check-in",
+  "description": "Quick check-in for gym visitors",
+  "sections": [
+    {
+      "title": "Member Info",
+      "fields": [
+        {
+          "id": "memberName",
+          "label": "Full Name",
+          "type": "text",
+          "placeholder": "Your name",
+          "required": true
+        },
+        {
+          "id": "memberId",
+          "label": "Membership ID",
+          "type": "text",
+          "placeholder": "e.g. GYM-1234"
+        },
+        {
+          "id": "plan",
+          "label": "Membership Plan",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Basic",
+            "Premium",
+            "VIP"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Todays Visit",
+      "fields": [
+        {
+          "id": "activity",
+          "label": "Activity",
+          "type": "select",
+          "options": [
+            "Gym Floor",
+            "Swimming",
+            "Yoga Class",
+            "Personal Training"
+          ]
+        },
+        {
+          "id": "notes",
+          "label": "Any Notes",
+          "type": "textarea",
+          "placeholder": "Injuries, special requests, etc.",
+          "rows": 3
+        }
+      ]
+    }
+  ]
+}

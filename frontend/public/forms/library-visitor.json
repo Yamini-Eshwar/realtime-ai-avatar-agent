@@ -1,0 +1,73 @@
+{
+  "id": "library-visitor",
+  "title": "Library Visitor Registration",
+  "description": "Register as a library visitor.",
+  "sections": [
+    {
+      "title": "Visitor Info",
+      "fields": [
+        {
+          "id": "visitorName",
+          "label": "Full Name",
+          "type": "text",
+          "placeholder": "Your name",
+          "required": true
+        },
+        {
+          "id": "age",
+          "label": "Age",
+          "type": "text",
+          "placeholder": "e.g. 25",
+          "required": true
+        },
+        {
+          "id": "memberType",
+          "label": "Membership Type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Student",
+            "Faculty",
+            "Public",
+            "Senior Citizen"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Visit Details",
+      "fields": [
+        {
+          "id": "purpose",
+          "label": "Purpose of Visit",
+          "type": "select",
+          "options": [
+            "Reading",
+            "Research",
+            "Borrow Books",
+            "Computer Access",
+            "Study Room"
+          ]
+        },
+        {
+          "id": "duration",
+          "label": "Expected Duration",
+          "type": "select",
+          "options": [
+            "1 Hour",
+            "2 Hours",
+            "Half Day",
+            "Full Day"
+          ]
+        },
+        {
+          "id": "remarks",
+          "label": "Remarks",
+          "type": "textarea",
+          "placeholder": "Any special requirements?",
+          "rows": 2
+        }
+      ]
+    }
+  ]
+}

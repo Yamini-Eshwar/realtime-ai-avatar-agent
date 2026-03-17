@@ -1,0 +1,32 @@
+{
+  "id": "hotel-checkin",
+  "title": "Hotel Guest Check-in",
+  "description": "Welcome! Let our AI concierge check you in.",
+  "sections": [
+    {
+      "title": "Guest Details",
+      "fields": [
+        { "id": "guestName", "label": "Full Name", "type": "text", "placeholder": "As on ID proof", "required": true },
+        { "id": "email", "label": "Email", "type": "email", "placeholder": "you@example.com", "required": true },
+        { "id": "phone", "label": "Phone Number", "type": "tel", "placeholder": "+91 98765 43210", "required": true },
+        { "id": "idType", "label": "ID Proof Type", "type": "select", "required": true, "options": ["Aadhaar", "Passport", "Driving License", "Voter ID"] }
+      ]
+    },
+    {
+      "title": "Booking Info",
+      "fields": [
+        { "id": "bookingRef", "label": "Booking Reference", "type": "text", "placeholder": "e.g. HTL-78901" },
+        { "id": "roomType", "label": "Room Type", "type": "select", "required": true, "options": ["Standard", "Deluxe", "Suite", "Presidential"] },
+        { "id": "nights", "label": "Number of Nights", "type": "text", "placeholder": "e.g. 3", "required": true },
+        { "id": "guests", "label": "Number of Guests", "type": "select", "options": ["1", "2", "3", "4"] }
+      ]
+    },
+    {
+      "title": "Preferences",
+      "fields": [
+        { "id": "meal", "label": "Meal Preference", "type": "select", "options": ["Vegetarian", "Non-Vegetarian", "Vegan", "No Preference"] },
+        { "id": "specialRequests", "label": "Special Requests", "type": "textarea", "placeholder": "Extra pillows, early check-in, airport pickup, etc.", "rows": 3 }
+      ]
+    }
+  ]
+}

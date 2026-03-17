@@ -1,0 +1,123 @@
+{
+  "id": "dental-reception",
+  "title": "Dental Appointment Check-in",
+  "description": "Check in for your dental appointment.",
+  "sections": [
+    {
+      "title": "Patient Info",
+      "fields": [
+        {
+          "id": "patientName",
+          "label": "Full Name",
+          "type": "text",
+          "placeholder": "Your full name",
+          "required": true
+        },
+        {
+          "id": "dob",
+          "label": "Date of Birth",
+          "type": "text",
+          "placeholder": "MM/DD/YYYY",
+          "required": true
+        },
+        {
+          "id": "phone",
+          "label": "Phone Number",
+          "type": "tel",
+          "placeholder": "+91 98765 43210",
+          "required": true
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "email",
+          "placeholder": "you@example.com"
+        }
+      ]
+    },
+    {
+      "title": "Appointment Details",
+      "fields": [
+        {
+          "id": "appointmentType",
+          "label": "Appointment Type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Routine Checkup",
+            "Cleaning",
+            "Filling",
+            "Root Canal",
+            "Extraction",
+            "Braces Consultation",
+            "Whitening",
+            "Emergency"
+          ]
+        },
+        {
+          "id": "dentist",
+          "label": "Preferred Dentist",
+          "type": "select",
+          "options": [
+            "Dr. Sharma",
+            "Dr. Patel",
+            "Dr. Reddy",
+            "No Preference"
+          ]
+        },
+        {
+          "id": "timeSlot",
+          "label": "Preferred Time",
+          "type": "select",
+          "required": true,
+          "options": [
+            "9:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "2:00 PM",
+            "3:00 PM",
+            "4:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Medical Info",
+      "fields": [
+        {
+          "id": "allergies",
+          "label": "Drug Allergies",
+          "type": "textarea",
+          "placeholder": "List any known drug allergies",
+          "rows": 2
+        },
+        {
+          "id": "currentMeds",
+          "label": "Current Medications",
+          "type": "textarea",
+          "placeholder": "List medications you are taking",
+          "rows": 2
+        },
+        {
+          "id": "insurance",
+          "label": "Insurance Provider",
+          "type": "select",
+          "options": [
+            "Star Health",
+            "ICICI Lombard",
+            "Max Bupa",
+            "HDFC Ergo",
+            "None"
+          ]
+        },
+        {
+          "id": "notes",
+          "label": "Additional Notes",
+          "type": "textarea",
+          "placeholder": "Anything else we should know?",
+          "rows": 2
+        }
+      ]
+    }
+  ]
+}

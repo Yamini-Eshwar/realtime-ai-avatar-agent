@@ -1,0 +1,22 @@
+{
+  "id": "feedback-survey",
+  "title": "Feedback Survey",
+  "description": "Quick feedback form to test dynamic rendering.",
+  "sections": [
+    {
+      "title": "About You",
+      "fields": [
+        { "id": "visitorName", "label": "Your Name", "type": "text", "placeholder": "Full name", "required": true },
+        { "id": "visitDate", "label": "Date of Visit", "type": "date", "required": true }
+      ]
+    },
+    {
+      "title": "Your Feedback",
+      "fields": [
+        { "id": "rating", "label": "Overall Experience", "type": "select", "required": true, "options": ["Excellent", "Good", "Average", "Poor"] },
+        { "id": "department", "label": "Department Visited", "type": "select", "options": ["Reception", "HR", "Engineering", "Sales", "Other"] },
+        { "id": "comments", "label": "Comments", "type": "textarea", "placeholder": "Any additional feedback?", "rows": 4 }
+      ]
+    }
+  ]
+}

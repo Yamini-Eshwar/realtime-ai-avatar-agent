@@ -1,0 +1,22 @@
+{
+  "id": "employee-checkin",
+  "title": "Employee Check-in Form",
+  "description": "Quick daily check-in for employees entering the building.",
+  "sections": [
+    {
+      "title": "Employee Details",
+      "fields": [
+        { "id": "employeeName", "label": "Employee Name", "type": "text", "placeholder": "Your full name", "required": true },
+        { "id": "employeeId", "label": "Employee ID", "type": "text", "placeholder": "e.g. EMP-1234", "required": true },
+        { "id": "department", "label": "Department", "type": "select", "placeholder": "Select department", "options": ["Engineering", "Sales", "HR", "Marketing", "Operations", "Finance"] }
+      ]
+    },
+    {
+      "title": "Visit Info",
+      "fields": [
+        { "id": "purpose", "label": "Purpose of Visit", "type": "text", "placeholder": "e.g. Regular shift, Meeting, Training" },
+        { "id": "expectedDuration", "label": "Expected Duration", "type": "select", "placeholder": "How long?", "options": ["1-2 hours", "Half day", "Full day", "Multiple days"] }
+      ]
+    }
+  ]
+}
